@@ -1,0 +1,714 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-items li {
+    list-style-type: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items li.dropdown {
+    position: relative;
+}
+
+.nav-items .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-items .dropdown-menu li a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.nav-items li.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.dropdown-menu li a {
+    padding: 8px 20px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-btn button {
+    border: none;
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.banner b {
+    border-bottom: 2px solid black;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 1.50px;
+    width: 48%;
+}
+
+.banner p {
+    font-size: 72px;
+    font-family: PoynterOSDisp;
+    font-weight: 600;
+    margin: 0px;
+    width: 65%;
+}
+
+.banner button {
+    border: none;
+    color: #FFEFE2;
+    background-color: #212020;
+    font-size: 24px;
+    font-family: PoynterOSDisp;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 20px 50px;
+}
+
+.Ubisoft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Ubisoft-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.Ubisoft-img i {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Ubisoft p {
+    text-align: left;
+    color: #212020;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Ubisoft p span {
+    color: #DD7146;
+    font-weight: 700;
+}
+
+.video p {
+    font-size: 36px;
+    text-align: center;
+}
+
+.video-banner {
+    background-image: url(../images/video-back-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 135px;
+    margin-left: 135px;
+}
+
+.video-banner a i {
+    font-size: 70px;
+    background-color: #212020bf;
+    color: white;
+    border-radius: 50%;
+    padding: 45px;
+    text-align: center;
+}
+
+.video-banner a i:hover {
+    background-color: black;
+}
+
+.callg-sol {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.column {
+    padding: 60px 60px 130px;
+    width: 100%;
+}
+
+.column ul {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.column ul li {
+    padding-top: 25px;
+}
+
+.column ul li span {
+    text-decoration: underline;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.img h2 {
+    font-size: 42px;
+}
+
+.challenge {
+    background-color: #c4e6f1;
+}
+
+.solution {
+    background-color: #feeee1;
+}
+
+.solution-list li::marker {
+    color: #DD7146;
+}
+
+.result {
+    background: linear-gradient(180deg, #FFEFE2 0%, rgba(255, 239, 226, 0) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.results {
+    background-color: white;
+    box-shadow: 0px 4px 60px rgba(216, 216, 216, 0.50);
+    border-radius: 16px;
+    position: relative;
+    top: -60px;
+    padding: 50px;
+    width: 55%;
+}
+
+.result-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.result-img h2 {
+    font-size: 42px;
+}
+
+.result-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+.result-text h1 {
+    margin: 0px;
+    font-size: 80px;
+}
+
+.line {
+    border: 2px solid #212020;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.circle-text {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.circle-1 {
+    background-color: #ffefff;
+}
+
+.circle-2 {
+    background-color: #ffefe2;
+}
+
+.circle-text p {
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 19px;
+    margin: 0px;
+    text-align: center;
+}
+
+.dots-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+}
+
+.circles-col {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.circle-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.col-line {
+    border: 2px solid #212020;
+    width: 145px;
+}
+
+.circle-col h1 {
+    margin: 0px;
+    font-size: 80px;
+}
+
+.circle-col p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.circle-col p span {
+    color: #DD7146;
+}
+
+.circle-col p b {
+    font-size: 30px;
+}
+
+.Who-is-Ubisoft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.Who-is-Ubisoft h1 {
+    margin: 0px;
+    font-size: 80px;
+}
+
+.Who-is-Ubisoft p {
+    margin: 0px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.Who-is-Ubisoft p span {
+    color: #DD7146;
+}
+
+.primary-care {
+    background-color: #212020;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+.heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.heart p {
+    margin: 0px;
+    font-size: 42px;
+    color: #FFEFE2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.health-support-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-left: 35px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.health-support-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.health-support-right p {
+    margin: 0px;
+    color: #FFEFE2;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.scale-support p {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.health-support-right p span {
+    color: #DD7146;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.employee-text {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.employe-line {
+    border: 2px solid #212020;
+    width: 60%;
+}
+
+.employee-text p {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.director {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    gap: 30px;
+}
+
+.director-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.director-img p {
+    margin: 0px;
+    text-align: center;
+    color: #FFEFE2;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.director-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.director-line {
+    border: 2px solid #FFEFE2;
+}
+
+.director-text p {
+    font-size: 36px;
+    color: #FFEFE2;
+    margin: 0px;
+}
+
+.culture {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+    margin: 80px;
+}
+
+.culture-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.culture-text h3 {
+    margin: 0px;
+    font-size: 42px;
+}
+
+.culture-text p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.mental-health {
+    background-color: #ffefe2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mental {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mental-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mental-text h3 {
+    margin: 0px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.mental-health-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.mental-health-text p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.mental-health-text span {
+    font-size: 36px;
+}
+
+.mental-health-sub-text {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 49%;
+}
+
+.sub-text-line {
+    border: 2px solid #212020;
+    width: 50%;
+}
+
+.mental-health-sub-text p {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.Louis-Francois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 60px;
+}
+
+.Louis-Francois-line {
+    border: 2px solid #212020;
+}
+
+.Louis-Francois-text p {
+    font-size: 36px;
+}
+
+.Louis-Francois-text span {
+    font-size: 18px;
+}
+
+.helping-employee {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.helping-employee h3 {
+    margin: 0px;
+    font-size: 42px;
+}
+
+.helping-employee p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #212020;
+    color: #FFEFE2;
+    padding: 60px 10%;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-logo img{
+    background-color: #FFEFE2;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #FFEFE2;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #FFEFE2;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footer-bottom {
+    border-top: 1px solid #2c2c2c;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-bottom p{
+    font-size: 18px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #FFEFE2;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footer-icons a {
+    color: #FFEFE2;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.footer-icons a:hover {
+    color: #fff;
+    opacity: 0.6;
+}
