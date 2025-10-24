@@ -712,3 +712,228 @@ body {
     color: #fff;
     opacity: 0.6;
 }
+
+/* ===========================
+   📱 MOBILE RESPONSIVE STYLES
+   =========================== */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-items li a {
+    font-size: 16px;
+  }
+
+  .nav-btn {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-btn button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+  }
+
+  /* Banner */
+  .banner {
+    height: auto;
+    padding: 50px 15px;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .banner b {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .banner p {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .banner button {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+
+  /* Ubisoft Section */
+  .Ubisoft {
+    padding: 30px 15px;
+    gap: 20px;
+  }
+
+  .Ubisoft-img {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Ubisoft p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  /* Video Section */
+  .video p {
+    font-size: 20px;
+  }
+
+  .video-banner {
+    margin: 20px 15px;
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .video-banner a i {
+    font-size: 50px;
+    padding: 30px;
+  }
+
+  /* Callg-Sol Section */
+  .callg-sol {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .column {
+    padding: 30px 15px;
+  }
+
+  .img {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .challenge, .solution {
+    width: 100%;
+  }
+
+  /* Result Section */
+  .results {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .result-text h1, .circle-col h1 {
+    font-size: 40px;
+  }
+
+  .circle-col {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col-line {
+    width: 80%;
+  }
+
+  /* Who-is-Ubisoft */
+  .Who-is-Ubisoft h1 {
+    font-size: 32px;
+  }
+
+  .Who-is-Ubisoft p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Primary Care Section */
+  .primary-care {
+    padding: 30px 15px;
+  }
+
+  .health-support-text {
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .employee {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .director {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  /* Culture Section */
+  .culture {
+    flex-direction: column;
+    margin: 20px 15px;
+    gap: 20px;
+    padding: 0;
+  }
+
+  /* Mental Health Section */
+  .mental-health {
+    padding: 30px 15px;
+  }
+
+  .mental-health-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mental-health-sub-text {
+    width: 100%;
+  }
+
+  .Louis-Francois {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Helping Employee */
+  .helping-employee {
+    padding: 40px 15px;
+  }
+
+  .helping-employee h3 {
+    font-size: 28px;
+  }
+
+  .helping-employee p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
